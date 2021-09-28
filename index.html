@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css"> 
+    <title>Pablo's Portfolio</title>
+  </head>
+  <body>
+    
+    <!-- =========================================== -->
+    <!-- ENCABEZADO -->
+    <!-- =========================================== -->
+
+    <header class="container-fluid d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-5 fw-bold">Pablo's Github Portfolio</p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Pablo's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./projects.html">Project's page</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- =========================================== -->
+    
+    <section class="mx-auto text-center pt-3">
+        <h3 class="text-light fw-bold" id="typewriter1"></h3>
+        <p class="d-flex justify-content-center"><iframe width="620" height="315" src="https://www.youtube.com/embed/mW4bil0yp7o"></iframe></p>
+    </section>
+
+    <!-- =========================================== -->
+    <!-- CONTENIDO -->
+    <!-- =========================================== -->
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto my-5 contenido-fila">
+            <div class="col d-flex my-5 ">
+                <img src="./img/blanco.jpg" alt="Foto Perfil" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-light fw-bold" id="typewriter2"></h3>
+                    <p class="px-4 text-light">
+                        My name is Pablo Melazzini I’m from La Paz, Bolivia. I’m an Electronic Engineer. I’ve worked in the Area of industrial control with Soft Starters, Frequency Inverters, Plcs and everything related to electrical engines protection and automation.
+                        I’ve also worked doing the software installation and maintenance operations in Atms. I’m currently working independently doing security cameras installation and configuration.
+                        I’ve always enjoyed learning about programming languages as a hobby I’ve learned HTML, PHP and MySQL Databases. In the last couple of years I’ve learned the basiscs of Python and I’ve also studied Arduino.
+                        I’m now interested in working in the web which is why I started studying with the MIT xPro program with Emeritus in order to become a 
+                        <span class="fs-5 fw-bold">Certified Full Stack Developer with MERN.</span> 
+                    </p>
+                </div> 
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================== -->
+    <!-- PIE DE PAGINA -->
+    <!-- =========================================== -->
+
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3 text-light fw-bold"> Contact me: </p>
+        <div class="text-light" id="iconos">
+            <a href="mailto:melazzini@hotmail.com"><i class="bi bi-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/pablo-melazzini-pinto-21ba87217/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/MelazziniPablo" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
+
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

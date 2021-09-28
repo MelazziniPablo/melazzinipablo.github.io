@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+header {
+    background: #1b2a4e;
+}
+
+body {
+    background-image: url(../img/binarynumbers.jpg);
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.contenido-fila {
+    width: 100% !important;
+    text-align: center justify;
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 60px;
+}
+
+footer p {
+    color: lightgray;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: lightgray;
+}
